@@ -1,0 +1,27 @@
+{
+    "name": "pragmatist/tdd-bdd-quickstart",
+    "description": "A basic setup to start coding with PHPUnit and Behat",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pragmatist",
+            "email": "hello@pragmatist.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TddBddQuickstart\\": ["src/", "tests/"]
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "behat/behat": "^3.1"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
